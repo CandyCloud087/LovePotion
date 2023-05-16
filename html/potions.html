@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="/css/styleproducts.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+</head>
+<body>
+    <header class="nav">
+        <a href="/index.html" class="logo">Potions</a>
+        <ul class="navlist">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/html/potions.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <div class="bagalho">
+        <div class="container">
+            <div class="mistery">
+                <img id="mistery" src="/img/MisteryPotion_adobe_express.svg" alt="">
+                <div class="description">
+                    <h1>Poção Misteriosa</h1>
+                    <p>Uma poção com propriedades desconhecidas, até mesmo pelo seu criador.</p>
+                    <div class="preco">
+                        <h2>$999</h2>
+                        <img src="/img/estrela.svg" alt="">
+                    </div>
+                    <button onclick="alertacompra()" class="buy" href="#">Comprar</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="death">
+                <img id="death" src="/img/DeathPotion_adobe_express.svg" alt="">
+                <div class="description">
+                    <h1>Poção da Morte</h1>
+                    <p>Causa envenenamento quando ingerido ou inalado.</p>
+                    <div class="preco">
+                        <h2>$10000</h2>
+                        <img src="/img/mora.svg" alt="">
+                    </div>
+                    <button onclick="alertacompra()" class="buy" href="#">Comprar</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="blood">
+                <img id="blood" src="/img/BloodPotion_adobe_express.svg" alt="">
+                <div class="description">
+                    <h1>Poção de Sangue</h1>
+                    <p>Possui uma alta capacidade de regeneração e curar doenças.</p>
+                    <div class="preco">
+                        <h2>$10000</h2>
+                        <img src="/img/estrela.svg" alt="">
+                    </div>
+                    <button onclick="alertacompra()" class="buy" href="#">Comprar</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="fire">
+                <img id="fire" src="/img/FirePotion_adobe_express.svg" alt="">
+                <div class="description">
+                    <h1>Poção de Fogo</h1>
+                    <p>Causa uma explosão incrivelmente forte.</p>
+                    <div class="preco">
+                        <h2>$550</h2>
+                        <img src="/img/mora.svg" alt="">
+                    </div>
+                    <button onclick="alertacompra()" class="buy" href="#">Comprar</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="mana">
+                <img id="mana" src="/img/ManaPotion_adobe_express.svg" alt="">
+                <div class="description">
+                    <h1>Poção de Amplificação</h1>
+                    <p>Possui uma alta capacidade de amplificar poder de qualquer coisa.</p>
+                    <div class="preco">
+                        <h2>$15000</h2>
+                        <img src="/img/estrela.svg" alt="">
+                    </div>
+                    <button onclick="alertacompra()" class="buy" href="#">Comprar</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="mushroom">
+                <img id="mushroom" src="/img/MushroomPotion_adobe_express.svg" alt="">
+                <div class="description">
+                    <h1>Poção Cogumelo</h1>
+                    <p>Utilizado na comida para melhorar o sabor.</p>
+                    <div class="preco">
+                        <h2>$100</h2>
+                        <img src="/img/mora.svg" alt="">
+                    </div>
+                    <button onclick="alertacompra()" class="buy" href="#">Comprar</button>
+                </div>
+        </div>
+    </div>
+
+    <div class="scroll-up">
+        <a href="#"><i class="ri-arrow-up-s-fill"></i></a>
+    </div>
+
+    <div class="modal-box">
+        <img src="img/checkcircle.svg" alt="">
+        <h2>Comprado</h2>
+        <h3>Sua compra foi efetuada com sucesso!</h3>
+
+        <div class="buttons">
+            <button onclick="alertacompra()" class="close-btn">Fechar</button>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+</html>
